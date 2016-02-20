@@ -6,7 +6,7 @@
   * Create a new file in the root of the project and name it `FirstName-LastName.html` (e.g. tom-kraak.html)
   * replicate [this page](https://medium.com/@zeldman/of-patterns-and-power-web-standards-then-now-afdb3474c681) using:
     * basic HTML elements (paragraphs, anchors, images, etc.)
-    * [sectioning elemnts](http://i.msdn.microsoft.com/hh204741.html5-outline(en-us,MSDN.10).png) (header, section, article, nav, footer, etc.)
+    * [sectioning elements](http://i.msdn.microsoft.com/hh204741.html5-outline(en-us,MSDN.10).png) (header, section, article, nav, footer, etc.)
     * ensure that you end up with a valid HTML5 document
   * Commit your changes
   * Push your changes
