@@ -1,0 +1,13 @@
+nav a {
+  color: #007db3;
+  font-family: "Trebuchet MS", arial, helvetica, sans-serif;
+  line-height: 2em;
+  text-decoration: none;
+}
+nav a:hover {
+  font-weight: bold;
+}
+h1 {
+  color: #f25203;
+  font-family: "Trebuchet MS", arial, helvetica, sans-serif;
+}
