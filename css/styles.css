@@ -7,6 +7,9 @@ nav a {
 nav a:hover {
   font-weight: bold;
 }
+nav li {
+  list-style-type: none;
+}
 h1 {
   color: #f25203;
   font-family: "Trebuchet MS", arial, helvetica, sans-serif;
