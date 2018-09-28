@@ -8,45 +8,71 @@
   <meta name="description" content="Nick Vandenberge's Exercise 1">
   <!-- <link rel="stylesheet" href="css/style.css"> -->
   <title>Exercise 1 | Nick Vandenberge</title>
-      <style>
-/* Not best practice to put CSS in HTML, but did not want to modify pre-existing CSS */
-        body {
-          margin: 0;
-          padding: 5% 25% 0 20%;
-        }
+  <style>
+    /* Not best practice to put CSS in HTML, but did not want to modify pre-existing CSS */
+    nav {
+      width: 100%;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 0 15px 0 0;
+    }
 
-        p {
-          font-size: 21px;
-          line-height: 35px;
-        }
+    li a {
+      text-decoration: none;
+      color: black;
+    }
 
-        img {
-          padding: 0 25px 3px 0;
-        }
+    #v1 {
+      border-left: 1px solid black;
+      height: 30px;
+    }
 
-        h1 {
-          font-size: 42px;
+    body {
+      margin: 0;
+      padding: 0 25% 0 20%;
+    }
 
-        }
-      </style>
+    p {
+      font-size: 21px;
+      line-height: 35px;
+    }
+
+    img {
+      padding: 0 25px 3px 0;
+    }
+
+    h1 {
+      font-size: 42px;
+    }
+  </style>
 </head>
 
 <header>
   <nav>
-
-
+    <ul>
+      <li><h1><a href="https://medium.com/">M</a></h1>
+      </li>
+      <li id="v1"></li>
+      <li><h3><a href="https://twitter.com/zeldman">@zeldman</a></h3></li>
+      <li><button>Follow</button></li>
+      <li id="rightnav">Sign in</li>
+      <li><button id="getstart">Get started</button></li>
+    </ul>
   </nav>
 </header>
 
 <body>
   <section>
-    <img src="medium.jpg" alt="pixelated dude" align="left"></img>
+    <img src="medium.jpg" alt="pixelated Zeldman" align="left"></img>
 
     <h1>Of Patterns and Power: Web Standards Then & Now</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel voluptatem, laboriosam porro. Temporibus dolorem labore inventore ex fuga incidunt maiores debitis error perferendis nemo eum recusandae commodi cum laboriosam, nulla et
-      sint autem odit. Optio qui maiores quis, dolorem eos, facere sit dolor excepturi culpa iure aut nihil nisi. Saepe rerum repudiandae corporis quisquam neque ab laboriosam, ea optio temporibus, nihil sunt libero vero nisi voluptas? Ipsum cumque,
-      illo nostrum perspiciatis sunt non ad, eum. Molestiae laboriosam eveniet fugit molestias minima sint itaque quod, suscipit dignissimos, minus possimus explicabo quasi. Quidem corrupti, nisi odio, corporis commodi voluptatum sapiente magni!</p>
+    <p>Lorem ipsum dolor sit amet, <a href="https://www.google.com/search?q=consectetur+adipisicing">consectetur adipisicing</a> elit. Suscipit vel voluptatem, laboriosam porro. Temporibus dolorem labore inventore ex fuga incidunt maiores debitis
+      error perferendis nemo eum recusandae commodi cum laboriosam, nulla etsint autem odit. Optio qui maiores quis, dolorem eos, facere sit dolor excepturi culpa iure aut nihil nisi. Saepe rerum repudiandae corporis quisquam neque ab laboriosam, ea
+      optio temporibus, nihil sunt libero vero nisi voluptas? Ipsum cumque, illo nostrum perspiciatis sunt non ad, eum. Molestiae laboriosam eveniet fugit molestias minima sint itaque quod, suscipit dignissimos, minus possimus explicabo quasi.
+      Quidem corrupti, nisi odio, corporis commodi voluptatum sapiente magni!</p>
   </section>
 
   <section>
@@ -59,5 +85,4 @@
 
 
 </body>
-
 </html>
